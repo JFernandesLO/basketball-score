@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: Clock;
+    src: url("clock.ttf");
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #15234b
+}
+
+.team {
+    font-family: Graduate, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#pts-home {
+    background: black;
+    color: #e9506a;
+    font-family: Clock, sans-serif;
+    font-size: 75px;
+    text-align: end;
+    padding: 5px 37px 5px 0px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#pts-guest {
+    background: black;
+    color: #e9506a;
+    font-family: Clock, sans-serif;
+    font-size: 75px;
+    text-align: end;
+    padding: 5px 37px 5px 0px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #15234b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: Clock, sans-serif;
+    font-size: 25px;
+}
+
+.line-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
